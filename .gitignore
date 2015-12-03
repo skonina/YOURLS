@@ -3,11 +3,11 @@
 ############
 
 # Configuration
-user/*
-!user/config-sample.php
-.htaccess
-*.config
-*.conf
+#user/*
+#!user/config-sample.php
+#.htaccess
+#*.config
+#*.conf
 [Rr]obots.txt
 
 # Languages
@@ -15,7 +15,7 @@ user/languages/*
 !user/languages/
 
 # Plugins
-user/plugins/*
+#user/plugins/*
 # Core plugins
 !user/plugins/hyphens-in-urls/
 !user/plugins/random-bg/
