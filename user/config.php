@@ -11,13 +11,13 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'root' );
+define( 'YOURLS_DB_USER', 'b3b990d674533d' );
 
 /** MySQL database password */
-define( 'YOURLS_DB_PASS', '998896' );
+define( 'YOURLS_DB_PASS', '31a3ab83' );
 
 /** The name of the database for YOURLS */
-define( 'YOURLS_DB_NAME', 'yourls' );
+define( 'YOURLS_DB_NAME', 'heroku_0c9ecba803c0a3f' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
