@@ -41,17 +41,17 @@ function share(dest) {
 	return false;
 }
 
-function init_clipboard() {
-	$('#copylink').click(function(){
-		$(this).select();
-	})
-	
-	$('#copylink').zclip({
-		path: zclipurl,
-		copy: $('#copylink').val(),
-		afterCopy:function(){
-			html_pulse( '#copybox h2, #copybox h3', 'Copied!' );
-		}
-	});
-};                     
+//function init_clipboard() {
+//	$('#copylink').click(function(){
+//		$(this).select();
+//	})
+//	
+//	$('#copylink').zclip({
+//		path: zclipurl,
+//		copy: $('#copylink').val(),
+//		afterCopy:function(){
+//			html_pulse( '#copybox h2, #copybox h3', 'Copied!' );
+//		}
+//	});
+//};                     
 
