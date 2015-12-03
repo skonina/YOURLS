@@ -21,7 +21,7 @@ define( 'YOURLS_DB_NAME', 'heroku_0c9ecba803c0a3f' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', 'localhost' );
+define( 'YOURLS_DB_HOST', 'us-cdbr-iron-east-03.cleardb.net' );
 
 /** MySQL tables prefix */
 define( 'YOURLS_DB_PREFIX', 'yourls_' );
